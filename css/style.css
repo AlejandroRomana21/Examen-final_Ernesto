@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--titulos: #282d33;
+	--contenido: #898989;
+	--fondo-gris-hero: #f9f9f9;
+	--fondo-gris-clients: #f5f5f5;
+}
+
+body{
+	
+	#hero {
+
+		.btn-primary {
+			background-color: #000;
+			color: #FFF;
+			border-radius: 25px;
+            font-size: 18px;
+            width: 170px;
+            height: 40px;
+		}
+
+		.first-content {
+			font-size: 55px;
+			font-weight: bold;
+		}
+
+		.container {
+			background-image: url('../img/home-slide.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+		}
+	}
+
+	.hero-2 {
+
+		h1 {
+			font-size: 70px;
+		}
+
+		.container {
+			color: #FFF;
+			background-image: url('../img/product-parallax.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 450px;
+		}
+	}
+
+	.hero-3 {
+		.container {
+			img {
+				margin-left: 100px
+			}
+			color: #000;
+			height: 600px;
+		}
+	}
+
+	.hero-4 {
+		.container {
+			background-image: url('../img/product-parallax-2.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+			color: #FFF;
+			
+			a {
+				font-size: 20px;
+				font-weight: 600;
+				color: #FFF;
+				text-decoration: none;
+			}
+		}
+
+	}
+
+	.hero-5 {
+
+	}
+
+	.pre-footer {
+		background-color: #f5f5f5;
+		height: 150px;
+		display: flex;
+    	align-items: center;
+	}
+}
+	
+
+header{
+	background-color: #fff;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
